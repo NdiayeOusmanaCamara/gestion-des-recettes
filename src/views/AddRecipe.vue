@@ -1,7 +1,11 @@
 <template>
+  <body>
+    
   <div class="container mt-4 w-50">
     <h2 class="mb-4 text-center">Ajouter une nouvelle recette</h2>
     <form @submit.prevent="handleSubmit">
+      
+
       <div class="mb-3">
         <label for="title" class="form-label">Titre de la recette</label>
         <input type="text" class="form-control" v-model="title" required>
@@ -21,6 +25,7 @@
       <button type="submit" class="btn btn-primary">Ajouter la recette</button>
     </form>
   </div>
+</body>
 </template>
 
 <script setup>
@@ -43,3 +48,9 @@ function handleSubmit() {
   router.push('/list');
 }
 </script>
+<style scoped>
+body{
+  background-color:burlywood ;
+ 
+}
+</style>

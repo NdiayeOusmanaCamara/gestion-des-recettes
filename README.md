@@ -9,22 +9,16 @@ Cette application est un gestionnaire de recettes développé avec Vue.js. Elle 
 - **Modifier une Recette** : Permet de modifier les détails d'une recette existante.
 - **Supprimer une Recette** : Permet de supprimer une recette de la liste.
 
+## Technologies Utilisées
 
-## Fonctionnalités
-
-- **Liste des Recettes** : Affiche toutes les recettes avec leur titre, type, et ingrédients.
-- **Ajouter une Recette** : Permet d'ajouter une nouvelle recette.
-- **Modifier une Recette** : Permet de modifier les détails d'une recette existante.
-- **Supprimer une Recette** : Permet de supprimer une recette de la liste.
-
-## Recommended IDE Setup
-
-Pour une meilleure expérience de développement, il est recommandé d'utiliser [Visual Studio Code (VSCode)](https://code.visualstudio.com/) avec l'extension [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (et de désactiver Vetur si elle est installée).
+- **Vue.js 3** : Framework JavaScript pour construire l'interface utilisateur.
+- **Pinia** : Pour la gestion de l'état global (store).
+- **Vue Router** : Pour la gestion des routes de l'application.
+- **Bootstrap 5** : Pour le style et la mise en page de l'interface.
+- **Vite** : Pour le bundling et le développement rapide.
 
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
@@ -44,4 +38,4 @@ npm run dev
 npm run build
 ```
 # Autors
-N'Diaye Ousmane Camara
+[N'Diaye Ousmane Camara](https://github.com/NdiayeOusmanaCamara)

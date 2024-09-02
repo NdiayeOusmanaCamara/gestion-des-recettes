@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-4 ">
     <h2 class="mb-4 text-center">Liste des Recettes</h2>
-    <table class="table table-striped">
+    <table class="table table-hover">
       <thead>
         <tr>
           <th scope="col">Titre</th>
